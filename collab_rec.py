@@ -23,16 +23,16 @@ movies_list_id = pd.Series(movie_info_small['movieId'].unique(),
 
 @app.route('/api',methods=['GET'])
 def get_movies_recommendation():
-    movie_name = request.args.get('title')[0]
-    item_id = []
-    movie_id = movies_list_id.loc[movies_list_id.index == movie_name][0]
-    user_id = combined_small.loc[combined_small.item == movie_id]['user'].tolist()[:5]
-    for id in user_id:
-        for i in range(len(predictions)):
-            if predictions[i].uid == id:
-                item_id.append(predictions[i].iid)
-    movies_names = movies_list_id.loc[movies_list_id.isin(item_id)].index.tolist()[:5]
-    return movies_names
+  item_id = []
+  movie_name = request.args.get('title')
+  movie_id = movies_list_id.loc[movies_list_id.index == movie_name][0]
+  user_id = combined_small.loc[combined_small.item == movie_id]['user'].tolist()[:5]
+  for id in user_id:
+    for i in range(len(predictions)):
+      if predictions[i].uid == id:
+        item_id.append(predictions[i].iid)
+  movies_names = movies_list_id.loc[movies_list_id.isin(item_id)].index.tolist()[:5]
+  return jsonify(movies_names)
 
 if __name__=='__main__':
     app.run(port=5000,debug=True)
