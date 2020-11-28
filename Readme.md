@@ -16,4 +16,4 @@ Scikit Surprise library was used to build this model. The data was collected fro
 
 
 ==================== **Exploratory Analysis Notebooks** ==================================
-[**content based rec_basic.py](rec_basic.py)
+[**content based rec_basic.py**](rec_basic.py)
