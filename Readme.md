@@ -36,6 +36,8 @@ Scikit Surprise library was used to build this model. The data was collected fro
 * [**collab verions 3 recommend_predict_v3**](recommend_predict_version_3.ipynb)
 * [**collab version 3 flask_app_collab_rec_v3.ipynb**](flask_app_collab_rec_v3.ipynb)
 
+=========== **React application** ====================
+* [**React application**](React)
 ===========================================================================================
 
 ### System Requirements
