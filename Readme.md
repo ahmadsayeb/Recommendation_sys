@@ -22,7 +22,7 @@ Scikit Surprise library was used to build this model. The data was collected fro
 * [**content based bag of word content_based_rec.ipynb**](content_based_rec.ipynb)
 
 =========== **Version one** ====================
-* [**collab version_1 collaborative_recommendation.ipynb**](collaborative_reccommendation.ipynb)
+* [**collab version_1 collaborative_recommendation.ipynb**](collaborative_recommendation.ipynb)
 * [**collab version 1 python file collab_app.py**](collab_app.py)
 * [**collab version 1 ipynb file collab_app.ipynb**](collab_app.ipynb)
 
