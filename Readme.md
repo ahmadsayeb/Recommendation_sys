@@ -15,8 +15,18 @@ The front side of the application was built using React. the raw files were down
 Scikit Surprise library was used to build this model. The data was collected from MovieLens and it consist of 24 million older movies from mid 90s. The model gave good accuracy with RMSE of 0.93. In version_1 five million data is trained in version_2 five million data trained with 25 epochs. this tooke around five hours. In version three I had to decrease the epoch to 5 since simple calculation would show that it takes around thirty hours to train.
 
 
-=========== **Exploratory Analysis Notebooks** ====================
--[**content based rec_basic.py**](rec_basic.py)
--[**content based rec_basic.py**](rec_basic.py)
--[**content based rec_basic.py**](rec_basic.py)
--[**content based rec_basic.py**](rec_basic.py)
+=========== **Content Based** ====================
+
+* [**content based rec_basic.py**](rec_basic.py)
+* [**content based basic app.py**](app.py)
+* [**content based bag of word content_based_rec.ipynb**](content_based_rec.ipynb)
+
+=========== **Version one** ====================
+* [**collab version_1 collaborative_recommendation.ipynb**](collaborative_reccommendation.ipynb)
+* [**collab version 1 python file collab_app.py**](collab_app.py)
+* [**collab version 1 ipynb file collab_app.ipynb**](collab_app.ipynb)
+
+=========== **Version two** ====================
+* [**collab version 2 collaborative_reccommendation_version2.ipynb](collaborative_reccommendation_version2.ipynb)
+* [**collab version 2 python app**](collab_app_v2.py)
+* [**collab version 2 ipynb app**](collab_app_v2.ipynb)
