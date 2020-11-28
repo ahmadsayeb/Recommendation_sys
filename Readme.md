@@ -38,7 +38,7 @@ Scikit Surprise library was used to build this model. The data was collected fro
 
 =========== **React application** ====================
 * [**React application**](React)
-===========================================================================================
+=============================================================================
 
 ### System Requirements
 **Operating System**: Windows
