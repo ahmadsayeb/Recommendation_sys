@@ -8,7 +8,7 @@ In this project I built a hybrid movie recommendation system. I used collaborati
 
 ## Disclaimer
 
-The front side of the application was built using React. the raw files were downloaded from this repository [TylerPottsDev](https://github.com/TylerPottsDev/react-movie-database). If you are willing to download the file from there, you should have decent knowledge of React and states and axios to be able to adapt it to your own application. Fundamental changes brought to those files to be able to adjust it with my own application.
+The front side of the application was built using React. the raw files were downloaded from this repository [TylerPottsDev](https://github.com/TylerPottsDev/react-movie-database). If you are willing to download the file from there, you should have decent knowledge of React and states and axios to be able to adapt it to your own application. Fundamental changes brought to those files.
 
 ## Libraries
 
