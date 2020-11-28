@@ -35,3 +35,11 @@ Scikit Surprise library was used to build this model. The data was collected fro
 * [**collab version 3 collaborative_recommendation_v3**](collaborative_recommendation_v3.ipynb)
 * [**collab verions 3 recommend_predict_v3**](recommend_predict_version_3.ipynb)
 * [**collab version 3 flask_app_collab_rec_v3.ipynb**](flask_app_collab_rec_v3.ipynb)
+
+===========================================================================================
+
+### System Requirements
+**Operating System**: Windows
+**Programming Language**: Python and Jupyter lab
+
+Flask deployed both on python and jupyter. apart from content based, the other models needs a minimum ram of 16gb and higher. To deal with this problem, you can jupyter notebooks of the same file and upload it to the google collab. you can run you falsk from google collab using the jupyter files.
