@@ -15,5 +15,8 @@ The front side of the application was built using React. the raw files were down
 Scikit Surprise library was used to build this model. The data was collected from MovieLens and it consist of 24 million older movies from mid 90s. The model gave good accuracy with RMSE of 0.93. In version_1 five million data is trained in version_2 five million data trained with 25 epochs. this tooke around five hours. In version three I had to decrease the epoch to 5 since simple calculation would show that it takes around thirty hours to train.
 
 
-==================== **Exploratory Analysis Notebooks** ==================================
-[**content based rec_basic.py**](rec_basic.py)
+=========== **Exploratory Analysis Notebooks** ====================
+-[**content based rec_basic.py**](rec_basic.py)
+-[**content based rec_basic.py**](rec_basic.py)
+-[**content based rec_basic.py**](rec_basic.py)
+-[**content based rec_basic.py**](rec_basic.py)
