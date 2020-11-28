@@ -27,6 +27,11 @@ Scikit Surprise library was used to build this model. The data was collected fro
 * [**collab version 1 ipynb file collab_app.ipynb**](collab_app.ipynb)
 
 =========== **Version two** ====================
-* [**collab version 2 collaborative_reccommendation_version2.ipynb](collaborative_reccommendation_version2.ipynb)
+* [**collab version 2 collaborative_reccommendation_version2.ipynb**](collaborative_reccommendation_version2.ipynb)
 * [**collab version 2 python app**](collab_app_v2.py)
 * [**collab version 2 ipynb app**](collab_app_v2.ipynb)
+
+=========== **Version three** ====================
+* [**collab version 3 collaborative_recommendation_v3**](collaborative_recommendation_v3.ipynb)
+* [**collab verions 3 recommend_predict_v3**](recommend_predict_version_3.ipynb)
+* [**collab version 3 flask_app_collab_rec_v3.ipynb**](flask_app_collab_rec_v3.ipynb)
